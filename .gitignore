@@ -1,0 +1,4 @@
+!nvim
+nvim/autoload
+nvim/session
+nvim/plugged

@@ -4,8 +4,13 @@ set -x GO111MODULE on
 
 alias rm="rm -i"
 alias df="df -h"
-alias white="echo;echo;echo;echo;echo;echo;echo"
+alias rsync="rsync -vtr --stats --info=progress2"
 
 alias ci="git commit"
 alias st="git status"
 alias dif="git diff"
+
+alias white="echo;echo;echo;echo;echo;echo;echo"
+
+# Set up my editor.
+export EDITOR=nvim
