@@ -1,4 +1,5 @@
-set -x PATH $PATH /usr/local/go/bin $HOME/google-cloud-sdk/bin
+set -x PATH $PATH $HOME/github/config/bin/
+set -x PATH $PATH /usr/local/go/bin/ $HOME/google-cloud-sdk/bin/
 set -x PATH $PATH $HOME/go/bin
 set -x GO111MODULE on
 
