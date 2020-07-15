@@ -7,9 +7,12 @@ alias rm="rm -i"
 alias df="df -h"
 alias rsync="rsync -vtr --stats --info=progress2"
 
+alias co="git checkout"
 alias ci="git commit"
 alias st="git status"
 alias dif="git diff"
+alias br="git branch"
+alias log="git log"
 
 alias white="echo;echo;echo;echo;echo;echo;echo"
 
