@@ -69,6 +69,10 @@ Plug 'honza/vim-snippets'
 "" Color
 Plug 'tomasr/molokai'
 Plug 'arcticicestudio/nord-vim'
+Plug 'Jorengarenar/vim-darkness'
+Plug 'owickstrom/vim-colors-paramount'
+Plug 'andreasvc/vim-256noir'
+Plug 'cocopon/iceberg.vim'
 
 "*****************************************************************************
 "" Custom bundles

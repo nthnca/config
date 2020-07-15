@@ -4,6 +4,7 @@ set -x PATH $PATH $HOME/go/bin
 set -x GO111MODULE on
 
 alias rm="rm -i"
+alias ls="ls --group-directories-first"
 alias df="df -h"
 alias rsync="rsync -vtr --stats --info=progress2"
 
