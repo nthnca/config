@@ -1,12 +1,14 @@
-set -x PATH $PATH $HOME/github/config/bin/
-set -x PATH $PATH /usr/local/go/bin/ $HOME/google-cloud-sdk/bin/
+set -x PATH $PATH $HOME/google-cloud-sdk/bin/
+set -x PATH $PATH /usr/local/go/bin/
 set -x PATH $PATH $HOME/go/bin
+set -x PATH $PATH $HOME/github/backup/desktop/
+
 set -x GO111MODULE on
 
 alias rm="rm -i"
 alias ls="ls --group-directories-first --color=auto"
 alias df="df -h"
-alias rsync="rsync -vtr --stats --info=progress2"
+alias rsync="rsync -trv --info=progress2"
 
 alias co="git checkout"
 alias ci="git commit"
