@@ -1,5 +1,0 @@
-#!/bin/bash
-
-export GOOGLE_APPLICATION_CREDENTIALS=~/.ssh/customurls_credentials.json
-export PROJECT_ID=$(grep project_id $GOOGLE_APPLICATION_CREDENTIALS | cut -d \" -f 4)
-~/go/bin/customurls "$@"
